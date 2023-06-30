@@ -1,0 +1,92 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+  padding: 18px;
+  overflow-y: scroll;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity var(--transition-duration)
+      var(--transition-timing-function),
+    visibility var(--transition-duration) var(--transition-timing-function);
+}
+
+/* .backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+} */
+
+.modal {
+  position: relative;
+  width: 335px;
+  height: 903px;
+  padding: 20px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 8.775463104248047px 0px rgba(0, 0, 0, 0.01),
+    0px 0px 18.17037010192871px 0px rgba(0, 0, 0, 0.02),
+    0px 0px 36.23749923706055px 0px rgba(0, 0, 0, 0.03),
+    0px 0px 71.02963256835938px 0px rgba(0, 0, 0, 0.03),
+    0px 0px 130.5995330810547px 0px rgba(0, 0, 0, 0.04),
+    0px 0px 223px 0px rgba(0, 0, 0, 0.05);
+}
+
+.modal-close-button {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 22px;
+  right: 20px;
+  border: none;
+  background-color: transparent;
+  outline: 1px solid gold;
+}
+
+.modal-close-icon {
+  fill: black;
+}
+
+.modal-list-item {
+  width: 295px;
+  height: 119px;
+  background-color: #faf3e7;
+}
+
+.chart-cabbage {
+  background-image: url('../img-modal/cabbage.png');
+  background-repeat: no-repeat;
+  background-position: bottom 8px right 30px;
+}
+
+.chart-tomato {
+  background-image: url('../img-modal/tomato.png');
+  background-repeat: no-repeat;
+  background-position: bottom 8px right 30px;
+}
+
+.chart-basket {
+  background-image: url('../img-modal/basket.png');
+  background-repeat: no-repeat;
+  background-position: bottom 8px right 30px;
+}
+
+.modal-list-item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.modal-title {
+  color: #141414;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 28px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -1.12px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
