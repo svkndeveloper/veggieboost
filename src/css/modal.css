@@ -6,7 +6,7 @@
   height: 100%;
   display: flex;
   justify-content: center;
-  background-color: rgba(46, 47, 66, 0.4);
+  background-color: rgba(234, 247, 229, 0.5);
   padding: 18px;
   overflow-y: scroll;
   opacity: 1;
@@ -25,6 +25,7 @@
 .modal {
   position: relative;
   max-width: 335px;
+  width: 335px;
   height: 903px;
   padding: 20px;
   border-radius: 20px;
@@ -71,7 +72,8 @@
   max-width: 295px;
   height: 119px;
   background-color: #faf3e7;
-  padding: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
   border-radius: 20px;
 }
 
@@ -81,8 +83,9 @@
   font-family: DM Sans;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 1.33;
   letter-spacing: -0.72px;
+  margin-bottom: 2px;
 }
 
 .modal-chart-text {
@@ -91,7 +94,7 @@
   font-family: DM Sans;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 1.29;
   letter-spacing: -0.28px;
 }
 
@@ -137,18 +140,56 @@
   background-image: url('../img-modal/cabbage.png');
   background-repeat: no-repeat;
   background-position: bottom 8px right 30px;
+  background-size: 94px 78px;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .chart-cabbage {
+    background-image: url('../img-modal/cabbage-2x.png');
+  }
 }
 
 .chart-tomato {
   background-image: url('../img-modal/tomato.png');
   background-repeat: no-repeat;
   background-position: bottom 8px right 30px;
+  background-size: 94px 78px;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .chart-tomato {
+    background-image: url('../img-modal/tomato-2x.png');
+  }
 }
 
 .chart-basket {
-  background-image: url('../img-modal/basket.png');
+  background-image: url('../img-modal/vegetables.png');
   background-repeat: no-repeat;
   background-position: bottom 8px right 30px;
+  background-size: 94px 78px;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .chart-basket {
+    background-image: url('../img-modal/vegetables-2x.png');
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .chart-basket,
+  .chart-tomato,
+  .chart-cabbage {
+    background-position: bottom 8px right 8px;
+  }
+  .modal-list-item {
+    padding-top: 8px;
+  }
 }
 
 .modal-list-item:not(:last-child) {
@@ -157,12 +198,10 @@
 
 .modal-title {
   color: #141414;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
   font-size: 28px;
   font-family: DM Sans;
-  font-style: normal;
   font-weight: 500;
-  line-height: 28px;
+  line-height: 1;
   letter-spacing: -1.12px;
   text-transform: uppercase;
   margin-bottom: 40px;
@@ -255,7 +294,6 @@
 
   .modal-title {
     color: #141414;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
     font-size: 40px;
     line-height: 1.1;
     letter-spacing: -1.6px;
@@ -271,6 +309,11 @@
   }
   .modal-list-item:not(:last-child) {
     margin: 0;
+  }
+
+  .modal-close-icon {
+    width: 28px;
+    height: 28px;
   }
 
   .modal-form-input {
@@ -317,5 +360,28 @@
   .modal-list-item {
     height: 308px;
     width: calc((100% - 40px) / 3);
+  }
+
+  .chart-cabbage {
+    background-position: bottom 14px left 7px;
+    background-size: 243px 200px;
+  }
+
+  .chart-tomato {
+    background-size: 243px 200px;
+    background-position: bottom 14px left 7px;
+  }
+
+  .chart-basket {
+    background-size: 243px 200px;
+    background-position: bottom 14px left 7px;
+  }
+
+  .modal-chart-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: -0.96px;
+    margin-bottom: 8px;
   }
 }
