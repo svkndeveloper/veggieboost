@@ -1,7 +1,7 @@
 <div class="backdrop is-hidden" data-modal>
   <div class="modal">
     <button class="modal-close-button" type="button">
-      <svg class="modal-close-icon" width="24" height="24">
+      <svg class="modal-close-icon" width="28" height="28">
         <use href="../img-modal/icons.svg#icon-x"></use>
       </svg>
     </button>
@@ -61,5 +61,42 @@
         </label>
       </li>
     </ul>
+    <form class="modal-form">
+      <label class="modal-form-label">
+        <input
+          type="name"
+          name="name"
+          pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+          placeholder="Enter full name..."
+          class="modal-form-input"
+        />
+      </label>
+      <label class="modal-form-label">
+        <input
+          type="email"
+          name="email"
+          pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+          placeholder="Enter email..."
+          class="modal-form-input"
+        />
+      </label>
+      <label class="modal-form-label">
+        <input
+          type="tel"
+          placeholder="Enter card.."
+          inputmode="numeric"
+          pattern="[0-9\s]{13,19}"
+          class="modal-form-input"
+        />
+      </label>
+      <label class="modal-form-label">
+        <textarea
+          name="Comment"
+          placeholder="Enter comments..."
+          class="modal-form-textarea"
+        ></textarea>
+      </label>
+      <button type="submit" class="submit-btn button">Submit</button>
+    </form>
   </div>
 </div>

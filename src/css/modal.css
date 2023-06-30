@@ -4,6 +4,8 @@
   left: 0;
   width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: center;
   background-color: rgba(46, 47, 66, 0.4);
   padding: 18px;
   overflow-y: scroll;
@@ -44,10 +46,24 @@
   border: none;
   background-color: transparent;
   padding: 0;
+  outline-color: transparent;
+  transition: scale 250ms linear, outline-color 250ms linear;
+}
+
+.modal-close-button:hover {
+  scale: 1.2;
+}
+
+.modal-close-button:focus {
+  outline-color: #fc8a11;
 }
 
 .modal-close-icon {
   stroke: black;
+}
+
+.modal-list {
+  margin-bottom: 40px;
 }
 
 .modal-list-item {
@@ -56,6 +72,7 @@
   height: 119px;
   background-color: #faf3e7;
   padding: 20px;
+  border-radius: 20px;
 }
 
 .modal-chart-title {
@@ -84,13 +101,14 @@
   right: 14px;
 }
 
-.checkbox-span {
-  outline: 1px solid black;
-  outline-offset: 2px;
+.modal-checkbox {
+  outline: 1px solid transparent;
+  outline-offset: 1px;
+  border-radius: 2px;
 }
 
-.checkbox-hidden:focus ~ .checkbox-span {
-  outline-color: teal;
+.checkbox-hidden:focus + * .modal-checkbox {
+  outline-color: #fc8a11;
 }
 
 .icon-checked {
@@ -148,4 +166,156 @@
   letter-spacing: -1.12px;
   text-transform: uppercase;
   margin-bottom: 40px;
+}
+
+/**-------------------FORM-----------------------  */
+.modal-form {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.modal-form-input {
+  height: 46px;
+  width: 100%;
+  border-radius: 100px;
+  border: 1px solid rgba(20, 20, 20, 0.3);
+  padding-left: 24px;
+  font-size: 14px;
+}
+
+.modal-form-input::placeholder,
+.modal-form-textarea::placeholder {
+  color: rgba(20, 20, 20, 0.5);
+  font-size: 14px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.56px;
+}
+
+.modal-form-textarea {
+  resize: none;
+  width: 100%;
+  height: 132px;
+  border-radius: 20px;
+  border: 1px solid rgba(20, 20, 20, 0.3);
+  padding: 14px 24px;
+}
+
+.submit-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 92px;
+  height: 42px;
+  padding: 12px 24px;
+  border-radius: 100px;
+  border-color: transparent;
+  background-color: #fc8a11;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: DM Sans;
+  line-height: 1.29;
+  letter-spacing: -0.56px;
+}
+
+/* *----------------TABLET-------------------------- */
+
+@media screen and (min-width: 768px) {
+  .modal {
+    max-width: 704px;
+    width: 704px;
+    height: 853px;
+    padding: 40px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+    .modal {
+      background-image: url('../img-modal/girl-tablet.png');
+      background-repeat: no-repeat;
+      background-position: bottom 0 right 0;
+    }
+  }
+  .chart-cabbage {
+    background-position: bottom 14px left 14px;
+    background-size: 172px 142px;
+  }
+
+  .chart-tomato {
+    background-size: 172px 142px;
+    background-position: bottom 14px left 14px;
+  }
+
+  .chart-basket {
+    background-size: 172px 142px;
+    background-position: bottom 14px left 14px;
+  }
+
+  .modal-title {
+    color: #141414;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -1.6px;
+  }
+  .modal-list {
+    display: flex;
+    gap: 12px;
+  }
+  .modal-list-item {
+    height: 250px;
+    width: calc((100% - 24px) / 3);
+    padding-top: 40px;
+  }
+  .modal-list-item:not(:last-child) {
+    margin: 0;
+  }
+
+  .modal-form-input {
+    height: 48px;
+    width: 360px;
+    border-radius: 100px;
+    border: 1px solid rgba(20, 20, 20, 0.3);
+    padding-left: 24px;
+    font-size: 14px;
+  }
+
+  .modal-form-textarea {
+    width: 360px;
+    height: 145px;
+  }
+
+  .modal-checkbox {
+    width: 20px;
+    height: 20px;
+  }
+
+  .submit-btn {
+    width: 114px;
+    height: 48px;
+  }
+}
+
+/* *-------------------DESKTOP------------------------------ */
+
+@media screen and (min-width: 1280px) {
+  .modal {
+    max-width: 891px;
+    width: 891px;
+    height: 911px;
+    background-image: url('../img-modal/girl-desktop.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
+  .modal-list {
+    gap: 20px;
+  }
+
+  .modal-list-item {
+    height: 308px;
+    width: calc((100% - 40px) / 3);
+  }
 }
