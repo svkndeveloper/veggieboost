@@ -16,11 +16,11 @@
     visibility var(--transition-duration) var(--transition-timing-function);
 }
 
-.backdrop.is-hidden {
+/* .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
-}
+} */
 
 .modal {
   position: relative;
@@ -105,9 +105,10 @@
 }
 
 .modal-checkbox {
-  outline: 1px solid transparent;
-  outline-offset: 1px;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
   border-radius: 2px;
+  transition: outline-color 300ms linear;
 }
 
 .checkbox-hidden:focus + * .modal-checkbox {
@@ -184,6 +185,13 @@
   border: 1px solid rgba(20, 20, 20, 0.3);
   padding-left: 24px;
   font-size: 14px;
+  transition: all 250ms linear;
+}
+
+.modal-form-input:focus,
+.modal-form-textarea:focus {
+  border: 1px solid #fc8a11;
+  outline: transparent;
 }
 
 .modal-form-input::placeholder,
@@ -204,6 +212,7 @@
   border-radius: 20px;
   border: 1px solid rgba(20, 20, 20, 0.3);
   padding: 14px 24px;
+  transition: all 250ms linear;
 }
 
 .submit-btn {
@@ -221,6 +230,17 @@
   font-family: DM Sans;
   line-height: 1.29;
   letter-spacing: -0.56px;
+  transition: all 300ms linear;
+}
+
+.submit-btn:hover {
+  background-color: #a1c487;
+}
+
+.submit-btn:focus {
+  border-color: #fc8a11;
+  background-color: #a1c487;
+  outline: transparent;
 }
 
 /* *----------------TABLET-------------------------- */
@@ -328,5 +348,9 @@
     line-height: 1.17;
     letter-spacing: -0.96px;
     margin-bottom: 8px;
+  }
+
+  .checkbox-hidden:hover + * .modal-checkbox {
+    outline-color: #fc8a11;
   }
 }
