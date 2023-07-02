@@ -295,6 +295,9 @@ img {
     margin-bottom: 0;
     margin-left: 24px;
   }
+  .vegetables-btn {
+    transition: background-color 300ms linear;
+  }
 
   .vegetables-btn:hover,
   .vegetables-btn:focus {
