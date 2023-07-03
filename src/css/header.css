@@ -23,7 +23,7 @@
 }
 .header-navigation {
     display: flex;
-    width: 229px;
+    width: 118px;
     padding-top: 16px;
     padding-bottom: 16px;
 }
@@ -41,7 +41,7 @@
 }
 .mob-menu {
     position: fixed;
-    top: 50px;
+    top: 0;
     z-index: 100;
     width: 100vw;
     height: 100vh;
@@ -76,4 +76,14 @@
     font-weight: 400;
     line-height: 1.28;
     letter-spacing: -0.56px;
+}
+.logo-icon {
+    fill: #77AC63;
+}
+.icon-shopping {
+    fill: #141414;
+    display: none;
+}
+.icon-menu {
+    fill: #77AC63;
 }
