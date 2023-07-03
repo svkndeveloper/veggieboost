@@ -32,7 +32,20 @@
   font-family: DM Sans;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 1.2;
+  letter-spacing: -0.56px;
+  padding-top: 20px;
+}
+
+.how-work-text2 {
+  width: 335px;
+  color: #141414;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
   letter-spacing: -0.56px;
   padding-top: 20px;
 }
@@ -157,6 +170,19 @@
     letter-spacing: -0.72px;
   }
 
+  .how-work-text2 {
+    width: 279px;
+    color: #141414;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+    padding-top: 0px;
+  }
+
   .how-work-box-second {
     margin-top: 100px;
     display: flex;
@@ -200,7 +226,14 @@
 
 @media screen and (min-width: 1280px) {
   .container {
+    max-width: 1280px;
+  }
+
+  .how-work-box-second {
     max-width: 1216px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
   }
 
   .how-work-title {
@@ -212,5 +245,47 @@
     line-height: 1.04;
     letter-spacing: -1.92px;
     text-transform: uppercase;
+  }
+
+  .img-box {
+    margin-left: 119px;
+  }
+
+  .how-work-text {
+    width: 353px;
+    margin-right: 40px;
+  }
+
+  .how-work-text2 {
+    width: 294px;
+    color: #141414;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+  }
+
+  .how-work-box-second {
+    background-image: url(../images/bg-works/bg-works-des.png);
+    border-radius: 80px;
+  }
+
+  .how-work-subtitle {
+    width: 512px;
+    color: #141414;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+    font-size: 40px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -1.6px;
+    text-transform: uppercase;
+  }
+
+  .img-list {
   }
 }
