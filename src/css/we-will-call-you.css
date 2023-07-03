@@ -87,7 +87,7 @@
   height: 388px;
   border-radius: 40px;
   background: #faf3e7;
-  background-image: url(../);
+  background-image: url(../images/img1x/contacts/contact-mobile-1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -98,7 +98,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .contacts-pic {
-    background-image: url(../);
+    background-image: url(../images/img1x/contacts/contact-mobile-2x.jpg);
   }
 }
 
@@ -138,7 +138,7 @@
     margin-top: 80px;
     max-width: 704px;
     height: 463px;
-    background-image: url(../);
+    background-image: url(../images/img1x/contacts/contact-tablet-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -148,7 +148,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .contacts-pic {
-      background-image: url(../);
+      background-image: url(../images/img1x/contacts/contact-tablet-2x.jpg);
     }
   }
 }
@@ -166,7 +166,7 @@
   }
 
   .contacts-title {
-    max-width: 610px;
+    max-width: 613px;
     font-size: 48px;
     line-height: 1.04;
     letter-spacing: -1.92px;
@@ -189,7 +189,7 @@
     max-width: 525px;
     height: 536px;
     width: 525px;
-    background-image: url(../);
+    background-image: url(../images/img1x/contacts/contact-desk-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -199,7 +199,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .contacts-pic {
-      background-image: url(../);
+      background-image: url(../images/img1x/contacts/contact-desk-2x.jpg);
     }
   }
 }
