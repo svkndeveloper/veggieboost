@@ -353,8 +353,11 @@
     letter-spacing: -0.96px;
     margin-bottom: 8px;
   }
-
+  /* 
   .checkbox-hidden:hover + * .modal-checkbox {
+    outline-color: #fc8a11;
+  } */
+  .modal-list-item:hover * .modal-checkbox {
     outline-color: #fc8a11;
   }
 }
