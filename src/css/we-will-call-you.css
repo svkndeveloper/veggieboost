@@ -144,10 +144,10 @@
     margin-top: 80px;
     max-width: 704px;
     height: 463px;
-    background-image: url(../images/img1x/contacts/contact-tablet-1x.jpg);
+    background-image: url(../images/img1x/contacts/contact-tablet-1x.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: left 25px top;
+    background-size: contain;
     padding-top: 17px;
     padding-left: 38px;
     padding-right: 38px;
@@ -157,7 +157,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .contacts-pic {
-      background-image: url(../images/img1x/contacts/contact-tablet-2x.jpg);
+      background-image: url(../images/img1x/contacts/contact-tablet-2x.png);
     }
   }
 }
@@ -198,10 +198,10 @@
     max-width: 525px;
     height: 536px;
     width: 525px;
-    background-image: url(../images/img1x/contacts/contact-desk-1x.jpg);
+    background-image: url(../images/img1x/contacts/contact-desk-1x.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: left top;
+    background-size: contain;
     padding: 37px 0 0 0;
   }
 
@@ -209,7 +209,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .contacts-pic {
-      background-image: url(../images/img1x/contacts/contact-desk-2x.jpg);
+      background-image: url(../images/img1x/contacts/contact-desk-2x.png);
     }
   }
 }
