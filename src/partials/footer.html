@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/styles.css" />
     <link rel="stylesheet" href="../css/footer-style.css" />
+    <link rel="stylesheet" href="../css/variables.css" />
   </head>
   <body>
     <footer class="footer">
@@ -15,8 +16,25 @@
         <div class="link-wrapper">
           <div class="img-logo-wrapper">
             <picture>
-              <source media="(max-width: 767px)" srcset="" />
-              <img src="" alt="broccoli" class="footer-img" />
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ../images/img1x/footer/broccoli-desk-tablet.png         1x,
+                  ../images/img1x/img2x/footer/broccoli-desk-tablet2x.png 2x
+                "
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ../images/img1x/footer/broccoli-mobile.png         1x,
+                  ../images/img1x/img2x/footer/broccoli-mobile2x.png 2x
+                "
+              />
+              <img
+                src="../images/img1x/footer/broccoli-mobile.png"
+                alt="broccoli"
+                class="footer-img"
+              />
             </picture>
             <a href="" class="logo-link">
               <svg width="16" height="16">
@@ -41,7 +59,7 @@
           <ul class="social-list">
             <li>
               <a
-                href=""
+                href="https://www.facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="social-link"
@@ -53,7 +71,7 @@
             </li>
             <li>
               <a
-                href=""
+                href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="social-link"
@@ -65,7 +83,7 @@
             </li>
             <li>
               <a
-                href=""
+                href="https://www.youtube.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="social-link"
