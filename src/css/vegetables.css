@@ -9,11 +9,10 @@
 }
 
 .vegetables-title-2 {
-  color: var(--c-vegetables-title-2);
+  color: var(--main-text-color);
   text-align: center;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 24px;
-  font-family: DM Sans;
   font-style: normal;
   font-weight: 500;
   line-height: 1.17;
@@ -23,11 +22,10 @@
 }
 
 .vegetables-main-paragraf {
-  color: var(--c-vegetables-main-paragraf);
+  color: var(--main-text-color);
   text-align: center;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 14px;
-  font-family: DM Sans;
   font-style: normal;
   font-weight: 400;
   line-height: 1.28;
@@ -49,14 +47,13 @@
 
 .vegetables-item {
   padding: 40px 0 20px;
-  background: var(--bg-vegetables-card);
+  background: var(--order-card-back);
   border-radius: 20px;
 }
 
 .vegetables-title-3 {
-  color: var(--c-vegetables-title-3);
+  color: var(--main-text-color);
   font-size: 24px;
-  font-family: DM Sans;
   font-style: normal;
   font-weight: 700;
   line-height: 1.17;
@@ -66,9 +63,8 @@
 }
 
 .vegetables-plant-paragraf {
-  color: var(--c-vegetables-card-paragraf);
+  color: var(--main-text-color);
   font-size: 14px;
-  font-family: DM Sans;
   font-style: normal;
   font-weight: 400;
   line-height: 1.28;
@@ -95,9 +91,8 @@
 }
 
 .vegetables-price-paragraf {
-  color: var(--c-vegetables-card-paragraf);
+  color: var(--main-text-color);
   font-size: 14px;
-  font-family: DM Sans;
   font-style: normal;
   font-weight: 500;
   line-height: 1.28;
@@ -112,7 +107,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--bg-vegetables-btn);
+  background-color: var(--order-btn-color);
   margin: 0 auto;
   border: none;
 }
@@ -123,16 +118,15 @@
 }
 
 .vegetables-btn-icon {
-  fill: var(--c-vegetables-btn);
+  fill: var(--secondary-text-color);
   margin-right: 4px;
 }
 
 .vegetables-btn-paragraf {
-  color: var(--c-vegetables-btn);
+  color: var(--secondary-text-color);
   text-align: center;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 18px;
-  font-family: DM Sans;
   font-style: normal;
   font-weight: 500;
   line-height: 1.33;
@@ -175,7 +169,6 @@
 
   .vegetables-item {
     padding: 64px 0 24px;
-    background: #eaf7e5;
     border-radius: 20px;
     width: calc((100% - 20px) / 2);
   }
@@ -261,6 +254,6 @@
 
   .vegetables-btn:hover,
   .vegetables-btn:focus {
-    background-color: var(--bg-vegetables-btn-hf);
+    background-color: var(--order-btn-color-hover);
   }
 }
