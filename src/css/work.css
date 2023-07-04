@@ -77,7 +77,7 @@
 }
 
 .how-work-box-second {
-  background-image: url(../images/bg-works/bg-works-mob.png);
+  background-image: url(../images/img/works/bg-works-mob.png);
   border-radius: 80px;
 }
 
@@ -196,7 +196,7 @@
   }
 
   .how-work-box-second {
-    background-image: url(../images/bg-works/bg-works-tab.png);
+    background-image: url(../images/img/works/bg-works-tab.png);
     border-radius: 80px;
   }
 
@@ -278,7 +278,7 @@
   }
 
   .how-work-box-second {
-    background-image: url(../images/bg-works/bg-works-des.png);
+    background-image: url(../images/img/works/bg-works-des.png);
     border-radius: 80px;
   }
 
