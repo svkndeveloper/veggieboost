@@ -78,7 +78,7 @@
 
 .how-work-box-second {
   background-image: url(../images/img/works/bg-works-mob.png);
-  border-radius: 80px;
+  border-radius: 40px;
 }
 
 @media (min-device-pixel-ratio: 2),
