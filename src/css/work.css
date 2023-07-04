@@ -239,10 +239,9 @@
   }
 
   .how-work-box-second {
-    max-width: 1216px;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
+    align-items: center;
   }
 
   .how-work-title {
@@ -254,6 +253,7 @@
     line-height: 1.04;
     letter-spacing: -1.92px;
     text-transform: uppercase;
+    margin-right: 192px;
   }
 
   .img-box {
@@ -283,8 +283,9 @@
   }
 
   .box-second-wrap {
-    width: 1216px;
-    padding: 40px 80px 0px 80px;
+    width: 512px;
+    margin: 0;
+    margin-right: 80px;
   }
 
   .how-work-subtitle {
@@ -303,5 +304,17 @@
   .img-list {
     padding-left: 80px;
     padding-right: 0px;
+  }
+
+  .how-work-list {
+    gap: 24px;
+  }
+
+  .how-work-link {
+    width: 349px;
+  }
+
+  .how-work-text-subtitle {
+    width: 289px;
   }
 }
