@@ -1,43 +1,3 @@
-:root {
-  --c-vegetables-title-2: #141414;
-  --c-vegetables-main-paragraf: #141414;
-  --bg-vegetables-card: #eaf7e5;
-  --c-vegetables-title-3: #141414;
-  --c-vegetables-card-paragraf: #141414;
-  --bg-vegetables-btn: #fc8a11;
-  --bg-vegetables-btn-hf: #a1c487;
-  --c-vegetables-btn: #fff;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
-
 .vegetables-сontainer {
   max-width: 375px;
   margin: 0 auto;
@@ -51,7 +11,7 @@ img {
 .vegetables-title-2 {
   color: var(--c-vegetables-title-2);
   text-align: center;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 24px;
   font-family: DM Sans;
   font-style: normal;
@@ -65,7 +25,7 @@ img {
 .vegetables-main-paragraf {
   color: var(--c-vegetables-main-paragraf);
   text-align: center;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   font-family: DM Sans;
   font-style: normal;
@@ -170,7 +130,7 @@ img {
 .vegetables-btn-paragraf {
   color: var(--c-vegetables-btn);
   text-align: center;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 18px;
   font-family: DM Sans;
   font-style: normal;
