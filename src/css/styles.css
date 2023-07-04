@@ -5,14 +5,27 @@
 /* Heder */
 @import url('');
 /* Hero */
-@import url('');
+@import url('./hero.css');
 /* Works */
 @import url('');
 /* Vegetables */
-@import url('');
+@import url('./vegetables.css');
 /* Contacts */
 @import url('');
 /* Footer */
-@import url('');
+@import url('./footer-style.css');
 /* Modal */
+
 @import url('./modal.css');
+
+@import url('');
+
+
+
+
+
+
+
+/* Button scroll to top */
+@import url('./btntotop.css');
+
