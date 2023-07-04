@@ -1,7 +1,9 @@
 .footer {
+  max-width: 375px;
   padding-top: 80px;
   padding-bottom: 80px;
   background-color: var(--footer-back);
+  margin: 0 auto;
 }
 
 .container {
@@ -126,6 +128,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .footer{
+    max-width: 768px;
+  }
+
   .container {
     max-width: 768px;
     padding-left: 32px;
@@ -161,9 +167,13 @@
   }
 }
 
-@media screen and (min-width: 1260px) {
+@media screen and (min-width: 1280px) {
+  .footer{
+    max-width: 1280px;
+  }
+
   .container {
-    max-width: 1260px;
+    max-width: 1280px;
   }
 
   .link-wrapper {
