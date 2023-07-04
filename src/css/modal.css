@@ -14,11 +14,11 @@
   transition: opacity 250ms linear, visibility 250ms linear;
 }
 
-/* .backdrop.is-hidden {
+.backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
-} */
+}
 
 .modal {
   position: relative;
@@ -53,7 +53,7 @@
 }
 
 .modal-close-button:hover {
-  scale: 1.2;
+  transform: scale(1.2);
 }
 
 .modal-close-button:focus {
@@ -244,7 +244,7 @@
 }
 
 .submit-btn:focus {
-  border-color: var(-order-btn-color);
+  border-color: var(--order-btn-color);
   background-color: var(--order-btn-color-hover);
   outline: transparent;
 }
@@ -372,11 +372,8 @@
     letter-spacing: -0.96px;
     margin-bottom: 8px;
   }
-  /* 
-  .checkbox-hidden:hover + * .modal-checkbox {
-    outline-color: var(-order-btn-color);
-  } */
+
   .modal-list-item:hover * .modal-checkbox {
-    outline-color: var(-order-btn-color);
+    outline-color: var(--order-btn-color);
   }
 }
