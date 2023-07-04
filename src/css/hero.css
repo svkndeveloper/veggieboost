@@ -120,7 +120,7 @@
 }
 
 .hero-tumb-img {
-    width: 278px;
+    max-width: 278px;
     height: 228px;
     margin: 0 auto;
     margin-top: 8px;
@@ -228,7 +228,7 @@
     } 
 
     .hero-tumb-img {
-        width: 466px;
+        max-width: 466px;
         height: 380px;
         margin-top: 16px;
     }
@@ -310,7 +310,7 @@
     } 
 
     .hero-tumb-img {
-        width: 515px;
+        max-width: 515px;
         height: 423px;
         margin-top: 0;
     }
