@@ -2,7 +2,7 @@ const myButton = document.getElementById("myBtn");
 myButton.addEventListener('click', onPageTop);
 
 window.onscroll = function () {
-  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
     myButton.style.display = "block";
   } else {
     myButton.style.display = "none";
