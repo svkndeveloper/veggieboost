@@ -16,3 +16,6 @@
 @import url('./footer-style.css');
 /* Modal */
 @import url('');
+
+/* Button scroll to top */
+@import url('./btntotop.css');
