@@ -18,7 +18,8 @@
   fill: currentColor;
 }
 
-#myBtn:hover {
+#myBtn:hover,
+#myBtn:focus {
   color: white;
   background-color: #a1c487;
 }
