@@ -14,7 +14,7 @@
 }
 .how-work-title {
   color: #141414;
-  text-shadow: var(text-shadow);
+  text-shadow: var(--text-shadow);
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
@@ -25,7 +25,7 @@
 
 .how-work-text {
   color: #141414;
-  text-shadow: var(text-shadow);
+  text-shadow: var(--text-shadow);
   font-style: normal;
   font-weight: 400;
   line-height: 1.2;
@@ -36,7 +36,7 @@
 .how-work-text2 {
   width: 335px;
   color: #141414;
-  text-shadow: var(text-shadow);
+  text-shadow: var(--text-shadow);
   line-height: 1.2;
   letter-spacing: -0.56px;
   padding-top: 20px;
@@ -44,7 +44,7 @@
 
 .how-work-text-subtitle {
   color: #141414;
-  text-shadow: var(text-shadow);
+  text-shadow: var(--text-shadow);
   font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.56px;
@@ -80,7 +80,7 @@
 
 .how-work-subtitle {
   color: #141414;
-  text-shadow: var(text-shadow);
+  text-shadow: var(--text-shadow);
   font-size: 24px;
   font-weight: 500;
   line-height: 28px;
