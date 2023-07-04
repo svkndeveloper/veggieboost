@@ -86,11 +86,12 @@
   height: 388px;
   border-radius: 40px;
   background: #faf3e7;
-  background-image: url(../images/img1x/contacts/contact-mobile-1x.jpg);
+  background-image: url(../images/img1x/contacts/contact-mobile-1x.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-position: left 25px top;
+  background-size: contain;
   margin-top: 40px;
+  padding-top: 31px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -99,6 +100,12 @@
   .contacts-pic {
     background-image: url(../images/img1x/contacts/contact-mobile-2x.jpg);
   }
+}
+
+.contact-img {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -141,6 +148,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-top: 17px;
+    padding-left: 38px;
+    padding-right: 38px;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -192,6 +202,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding: 37px 0 0 0;
   }
 
   @media (min-device-pixel-ratio: 2),

@@ -22,5 +22,36 @@
       <button class="contacts-btn" type="submit">Recall</button>
     </form>
   </div>
-  <div class="contacts-pic"></div>
+  <div class="contacts-pic">
+    <picture>
+      <source
+        srcset="
+          ./images/img/fresh/fresh-girl-desk.png     1x,
+          ./images/img2x/fresh/fresh-girl-desk2x.png 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./images/img/fresh/fresh-girl-tablet.png     1x,
+          ./images/img2x/fresh/fresh-girl-tablet2x.png 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ./images/img/fresh/fresh-girl-mobile.png     1x,
+          ./images/img2x/fresh/fresh-girl-mobile2x.png 2x
+        "
+        media="(max-width: 375px)"
+      />
+      <img
+        src="../images/img/fresh/fresh-girl-mobile.png"
+        class="contact-img"
+        alt="women"
+        width="335"
+        height="357"
+      />
+    </picture>
+  </div>
 </section>
