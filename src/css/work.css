@@ -24,6 +24,7 @@
 }
 
 .how-work-text {
+  max-width: 335px;
   color: #141414;
   text-shadow: var(--text-shadow);
   font-style: normal;
@@ -34,7 +35,7 @@
 }
 
 .how-work-text2 {
-  width: 335px;
+  max-width: 335px;
   color: #141414;
   text-shadow: var(--text-shadow);
   line-height: 1.2;
