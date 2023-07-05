@@ -118,7 +118,8 @@
     stroke: #77AC63;
 }
 .icon-list {
-    fill: #FFFFFF;
+    stroke: #FFFFFF;
+    fill: transparent;
     
 }
 .header-shopping {

@@ -1,6 +1,6 @@
 (() => {
     const refs = {
-      openMenuBtn: document.querySelector("[data-memu-open]"),
+      openMenuBtn: document.querySelector("[data-menu-open]"),
       closeMenuBtn: document.querySelector("[data-menu-close]"),
       menu: document.querySelector("[data-menu]"),
     };
