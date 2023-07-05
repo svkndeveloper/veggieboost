@@ -5,14 +5,26 @@
 /* Heder */
 @import url('./header.css');
 /* Hero */
-@import url('');
+@import url('./hero.css');
 /* Works */
-@import url('');
+@import url('./work.css');
 /* Vegetables */
-@import url('');
+@import url('./vegetables.css');
 /* Contacts */
-@import url('');
+@import url('./we-will-call-you.css');
 /* Footer */
-@import url('');
+@import url('./footer-style.css');
 /* Modal */
+@import url('./modal.css');
+
 @import url('');
+
+
+
+
+
+
+
+/* Button scroll to top */
+@import url('./btntotop.css');
+
