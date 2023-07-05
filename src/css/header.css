@@ -138,6 +138,9 @@
     .header-container {
         max-width: 728px;
     }
+    .header-navigation {
+        display: block;
+    }
     .header-list {
         display: flex;
         align-items: center;
@@ -149,6 +152,9 @@
     .header-shopping {
         display: block;
         stroke: #141414;
+    }
+    .shopping {
+        display: block;
     }
     .shopping-flex {
         display: flex;
