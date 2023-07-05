@@ -67,7 +67,7 @@
 }
 
 .how-work-box-second {
-  background-image: url(../images/img/works/bg-works-mob.png);
+  background-image: url(./images/img/works/bg-works-mob.png);
   border-radius: 40px;
 }
 
@@ -75,7 +75,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .contacts-pic {
-    background-image: url(../images/img2x/works/bg-works-mob-2x.png);
+    background-image: url(./images/img2x/works/bg-works-mob-2x.png);
   }
 }
 
@@ -175,7 +175,7 @@
   }
 
   .how-work-box-second {
-    background-image: url(../images/img/works/bg-works-tab.png);
+    background-image: url(./images/img/works/bg-works-tab.png);
     border-radius: 80px;
   }
 
@@ -183,7 +183,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .contacts-pic {
-      background-image: url(../images/img2x/works/bg-works-tab-2x.png);
+      background-image: url(./images/img2x/works/bg-works-tab-2x.png);
     }
   }
 
@@ -194,7 +194,7 @@
   .img-list {
     margin-top: 40px;
     margin-bottom: 2px;
-    margin-left: none;
+    margin-left: 0;
   }
 
   .box-second-wrap {
@@ -253,7 +253,7 @@
   }
 
   .how-work-box-second {
-    background-image: url(../images/img/works/bg-works-des.png);
+    background-image: url(./images/img/works/bg-works-des.png);
     border-radius: 80px;
   }
 
@@ -261,7 +261,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .contacts-pic {
-      background-image: url(../images/img2x/works/bg-works-des-2x.png);
+      background-image: url(./images/img2x/works/bg-works-des-2x.png);
     }
   }
 
