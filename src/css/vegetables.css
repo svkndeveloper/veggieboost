@@ -11,7 +11,7 @@
 .vegetables-title-2 {
   color: var(--main-text-color);
   text-align: center;
-  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  text-shadow: var(--text-shadow);
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -24,7 +24,7 @@
 .vegetables-main-paragraf {
   color: var(--main-text-color);
   text-align: center;
-  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  text-shadow: var(--text-shadow);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -110,6 +110,12 @@
   background-color: var(--order-btn-color);
   margin: 0 auto;
   border: none;
+  transition: background-color 300ms linear;
+}
+
+.vegetables-btn:hover,
+.vegetables-btn:focus {
+  background-color: var(--order-btn-color-hover);
 }
 
 .vegetables-btn > div {
@@ -125,7 +131,7 @@
 .vegetables-btn-paragraf {
   color: var(--secondary-text-color);
   text-align: center;
-  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  text-shadow: var(--text-shadow);
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -255,14 +261,6 @@
     letter-spacing: -0.36px;
     margin-bottom: 0;
     margin-left: 24px;
-  }
-  .vegetables-btn {
-    transition: background-color 300ms linear;
-  }
-
-  .vegetables-btn:hover,
-  .vegetables-btn:focus {
-    background-color: var(--order-btn-color-hover);
   }
 }
 
