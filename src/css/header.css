@@ -73,7 +73,7 @@
     font-size: var(--descr-font-size);
     font-weight: var(--main-font-weight
     );
-    line-height: 1.28;
+    line-height: var(--descr-line-height);
     letter-spacing: -0.56px;
 }
 .logo-icon {
@@ -87,13 +87,13 @@
     fill: #77AC63;
 }
 .header-menu {
-    background-color: #FFF;
+    background-color: var(--secondary-text-color);
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
 }
 .mob-list {
-    background-color: #A1C487;
+    background-color: var(--hero-back);
     position: absolute;
     top: 124px;
     left: 50%;
