@@ -1,0 +1,57 @@
+<section class="contacts">
+  <div class="contacts-text-wrap">
+    <h1 class="contacts-title">FRESH HARWEST BOX HAS GOT YOU COVERED</h1>
+    <p class="contacts-text">
+      Our boxes are packed with delicious, nutritious vegetables, perfect for
+      anyone looking to eat healthier or support local farmers. Order your box
+      today and start enjoying the best that nature has to offer!
+    </p>
+    <form class="contacts-form">
+      <label class="contacts-label">
+        <input
+          type="tel"
+          name="user-phone"
+          class="contacts-input"
+          placeholder="+380 ()"
+          pattern="\+?[0-9\s\-\(\)]+"
+          required
+          minlength="13"
+          maxlength="13"
+        />
+      </label>
+      <button class="contacts-btn" type="submit">Recall</button>
+    </form>
+  </div>
+  <div class="contacts-pic">
+    <picture>
+      <source
+        srcset="
+          ./images/img/fresh/fresh-girl-desk.png     1x,
+          ./images/img2x/fresh/fresh-girl-desk2x.png 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./images/img/fresh/fresh-girl-tablet.png     1x,
+          ./images/img2x/fresh/fresh-girl-tablet2x.png 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ./images/img/fresh/fresh-girl-mobile.png     1x,
+          ./images/img2x/fresh/fresh-girl-mobile2x.png 2x
+        "
+        media="(max-width: 375px)"
+      />
+      <img
+        src="../images/img/fresh/fresh-girl-mobile.png"
+        class="contact-img"
+        alt="women"
+        width="335"
+        height="357"
+      />
+    </picture>
+  </div>
+</section>

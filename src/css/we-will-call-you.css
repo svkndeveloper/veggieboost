@@ -1,0 +1,215 @@
+.contacts {
+  max-width: 375px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 80px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contacts-title {
+  max-width: 323px;
+  color: var(--main-text-color);
+  text-align: center;
+  text-shadow: var(--text-shadow);
+  font-size: var(--descr-title-font-size);
+  font-weight: var(--title-font-weight);
+  line-height: var(--descr-title-line-height);
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.contacts-text {
+  max-width: 321px;
+  font-weight: 400;
+  color: var(--main-text-color);
+  text-align: center;
+  text-shadow: var(--text-shadow);
+  font-size: var(--descr-font-size);
+  line-height: 1.29;
+  letter-spacing: -0.56px;
+  margin-bottom: 40px;
+}
+
+.contacts-form {
+  position: relative;
+}
+
+.contacts-input {
+  position: relative;
+  border-radius: 100px;
+  border: 1px solid #c1bdbd;
+  width: 100%;
+  max-width: 335px;
+  height: 48px;
+  outline: transparent;
+  padding: 15px 24px;
+}
+
+.contacts-input::placeholder {
+  color: #c1bdbd;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.56px;
+}
+
+.contacts-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  border-radius: 100px;
+  background: var(--order-btn-color);
+  width: 105px;
+  height: 48px;
+  padding: 15px 35px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.56px;
+  text-transform: capitalize;
+  transition: background-color 250ms linear;
+}
+
+.contacts-btn:hover,
+.contacts-btn:focus {
+  background-color: var(--order-btn-color-hover);
+}
+
+.contacts-pic {
+  max-width: 335px;
+  height: 388px;
+  border-radius: 40px;
+  background: #faf3e7;
+  background-image: url(../images/img1x/contacts/contact-mobile-1x.png);
+  background-repeat: no-repeat;
+  background-position: left 25px top;
+  background-size: contain;
+  margin-top: 40px;
+  padding-top: 31px;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .contacts-pic {
+    background-image: url(../images/img1x/contacts/contact-mobile-2x.png);
+  }
+}
+
+.contact-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .contacts {
+    max-width: 768px;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-bottom: 174px;
+  }
+
+  .contacts-title {
+    max-width: 524px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -1.6px;
+  }
+
+  .contacts-text {
+    max-width: 500px;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .contacts-form {
+    width: 355px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .contacts-pic {
+    margin-top: 80px;
+    max-width: 704px;
+    height: 463px;
+    background-image: url(../images/img1x/contacts/contact-tablet-1x.png);
+    background-repeat: no-repeat;
+    background-position: left 25px top;
+    background-size: contain;
+    padding-top: 17px;
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .contacts-pic {
+      background-image: url(../images/img1x/contacts/contact-tablet-2x.png);
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contacts {
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 78px;
+  }
+
+  .contacts-text-wrap {
+    padding: 98px 0;
+  }
+
+  .contacts-title {
+    max-width: 613px;
+    font-size: 48px;
+    line-height: 1.04;
+    letter-spacing: -1.92px;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+
+  .contacts-text {
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 80px;
+  }
+
+  .contacts-form {
+    margin-left: 0;
+  }
+
+  .contacts-pic {
+    margin-top: 0;
+    max-width: 525px;
+    height: 536px;
+    width: 525px;
+    background-image: url(../images/img1x/contacts/contact-desk-1x.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+    padding: 37px 0 0 0;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .contacts-pic {
+      background-image: url(../images/img1x/contacts/contact-desk-2x.png);
+    }
+  }
+}
