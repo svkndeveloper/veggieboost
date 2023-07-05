@@ -136,7 +136,9 @@
     background-color: transparent;
     border: none;
     padding: 0;
-    height: 24px;
+    height: 20px;
+    width: 78px;
+    margin-top: 16px;
 }
 @media screen and (min-width: 375px) {
     .header-container {
