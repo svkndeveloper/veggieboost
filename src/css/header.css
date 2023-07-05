@@ -157,6 +157,19 @@
         align-items: center;
         gap: 14px;
     }
+    .header-item {
+        color: var(--main-text-color);
+        font-style: normal;
+        font-weight: 400;
+        line-height: var(--descr-line-height);
+        letter-spacing: -0.56px;
+        transition: color 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      }
+
+    .header-item:hover,
+    .header-item:focus {
+        color: var(--hero-back);
+      }
     .burger-menu-btn {
         display: none;
     }
