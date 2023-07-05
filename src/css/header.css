@@ -23,7 +23,7 @@
     margin: 0 auto;
 }
 .header {
-    background-color: #FFF;
+    background-color: var(--secondary-text-color);
 }
 .header-logo {
     display: flex;
@@ -35,10 +35,10 @@
     
 }
 .logo {
-    color: #141414;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.28;
+    color: var(--main-text-color);
+    font-size: var(--descr-font-size);
+    font-weight: var(--vegetables-title-font-weight);
+    line-height: var(--descr-line-height);
     letter-spacing: -0.56px;
     text-transform: uppercase;
 }
@@ -48,7 +48,7 @@
     z-index: 100;
     width: 100vw;
     height: 100vh;
-    background-color: #A1C487;
+    background-color: var(--hero-back);
 }
 .burger-menu-btn {
     stroke: #77AC63;
@@ -68,10 +68,11 @@
 
 }
 .menu-item {
-    color: #FFF;
+    color: var(--secondary-text-color);
     text-align: center;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: var(--descr-font-size);
+    font-weight: var(--main-font-weight
+    );
     line-height: 1.28;
     letter-spacing: -0.56px;
 }
