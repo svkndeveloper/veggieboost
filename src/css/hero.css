@@ -330,3 +330,55 @@
         padding: 12px 32px;
     }
 }
+
+.container-anime {
+    opacity: 0;
+    animation: fade-in-container 0.5s forwards;
+  }
+  
+  .item-anime {
+    opacity: 0;
+  }
+  
+  @keyframes fade-in-container {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .item-anime:nth-child(1) {
+    animation: fade-in-item 0.5s 0.3s forwards;
+  }
+  
+  .item-anime:nth-child(2) {
+    animation: fade-in-item 0.5s 0.6s forwards;
+  }
+  
+  .item-anime:nth-child(3) {
+    animation: fade-in-item 0.5s 0.9s forwards;
+  }
+  
+  .item-anime:nth-child(4) {
+    animation: fade-in-item 0.5s 1.2s forwards;
+  }
+  .item-anime:nth-child(5) {
+    animation: fade-in-item 0.5s 1.5s forwards;
+  }
+  .item-anime:nth-child(6) {
+    animation: fade-in-item 0.5s 1.8s forwards;
+  }
+  .item-anime:nth-child(7) {
+    animation: fade-in-item 0.5s 2.1s forwards;
+  }
+  .item-anime:nth-child(8) {
+    animation: fade-in-item 0.5s 2.4s forwards;
+  }
+  .item-anime:nth-child(9) {
+    animation: fade-in-item 0.5s 2.7s forwards;
+  }
+  
+  @keyframes fade-in-item {
+    to {
+      opacity: 1;
+    }
+  }
