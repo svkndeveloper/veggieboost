@@ -157,6 +157,10 @@
     }
     .shopping {
         display: block;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        height: 24px;
     }
     .shopping-flex {
         display: flex;

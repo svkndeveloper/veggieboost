@@ -6,10 +6,9 @@
     };
   
     refs.openMenuBtn.addEventListener("click", toggleMenu);
-    refs.openMenuBtn2.addEventListener("click", toggleMenu);
     refs.closeMenuBtn.addEventListener("click", toggleMenu);
   
-    function toggleModal() {
+    function toggleMenu() {
       refs.menu.classList.toggle("is-hidden");
       refs.menu.classList.toggle("no-scroll");
     }
