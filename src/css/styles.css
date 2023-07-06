@@ -3,15 +3,15 @@
 @import url('./variables.css');
 
 /* Heder */
-@import url('');
+@import url('./header.css');
 /* Hero */
 @import url('./hero.css');
 /* Works */
-@import url('');
+@import url('./work.css');
 /* Vegetables */
 @import url('./vegetables.css');
 /* Contacts */
-@import url('');
+@import url('./we-will-call-you.css');
 /* Footer */
 @import url('./footer-style.css');
 /* Modal */
