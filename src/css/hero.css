@@ -125,7 +125,7 @@
 }
 
 .hero-tumb-img {
-    width: 278px;
+    max-width: 278px;
     height: 228px;
     margin: 0 auto;
     margin-top: 8px;
