@@ -19,5 +19,13 @@
     function toggleMenu() {
       refs.menu.classList.toggle("is-hidden2");
       document.body.classList.toggle("no-scroll2");
+  }
+  
+  window.matchMedia('(min-width: 768px)').addEventListener('change', e => {
+    if (!e.matches) {
+           return;
     }
+   refs.menu.classList.add("is-hidden2");
+  });
   })();
+
