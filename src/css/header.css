@@ -171,6 +171,10 @@
     } 
 }
 @media screen and (min-width: 768px) {
+    .mob-menu{
+        display: none;
+    }
+
     .header-container {
         max-width: 768px;
         padding-left: 32px;
@@ -227,5 +231,8 @@
     }
     .header-navigation {
         margin-right: 308px;
+    }
+    .header-list{
+        gap: 20px;
     }
 }
