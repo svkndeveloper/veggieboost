@@ -1,11 +1,13 @@
 .hero-section {
     background-color: var(--hero-back);
-    
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 .hero-container{
     max-width: 375px;
-    padding: 48px 20px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 0 auto;
     
 }
@@ -171,9 +173,15 @@
 
 @media screen and (min-width: 768px) {
 
+    .hero-container{
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
     .hero-container {
         max-width: 768px;
-        padding: 64px 32px 32px;       
+        padding-left: 32px;
+        padding-right: 32px;       
     }
 
     .hero-list {
@@ -233,7 +241,7 @@
     } 
 
     .hero-tumb-img {
-        width: 466px;
+        max-width: 466px;
         height: 380px;
         margin-top: 16px;
     }
@@ -258,11 +266,15 @@
 
 @media screen and (min-width: 1280px) {
 
+    .hero-section{
+        padding-top: 127px;
+        padding-bottom: 127px;
+    }
+
     .hero-container {
         display: flex;
         justify-content: space-between;
         max-width: 1280px;
-        padding: 127px 32px 32px;    
     }
 
     .hero-list {
@@ -315,7 +327,7 @@
     } 
 
     .hero-tumb-img {
-        width: 515px;
+        max-width: 515px;
         height: 423px;
         margin-top: 0;
     }

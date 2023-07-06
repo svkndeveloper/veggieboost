@@ -1,8 +1,11 @@
 .how-work-section {
-  padding: 80px 20px;
+  padding-top: 80px;
+  padding-bottom: 20px;
 }
 
 .container {
+  padding-left: 20px;
+  padding-right: 20px;
   max-width: 375px;
   width: 100%;
   margin: 0 auto;
@@ -126,11 +129,14 @@
 
 @media screen and (min-width: 768px) {
   .container {
+    padding-left: 32px;
+    padding-right: 32px;
     max-width: 768px;
   }
 
   .how-work-section {
-    padding: 100px 32px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .how-work-box {
@@ -148,6 +154,7 @@
   }
 
   .how-work-text {
+    max-width: none;
     width: 324px;
     line-height: 1.33;
     margin-right: 20px;
@@ -222,7 +229,8 @@
   }
 
   .how-work-section {
-    padding: 124px 32px;
+    padding-top: 124px;
+    padding-bottom: 124px;
   }
 
   .how-work-box-second {
