@@ -149,6 +149,7 @@
   .contacts-pic {
     margin-top: 80px;
     max-width: 704px;
+    border-radius: 80px;
     height: 463px;
     background-image: url(../images/img1x/contacts/contact-tablet-1x.png);
     background-repeat: no-repeat;

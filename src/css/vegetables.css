@@ -90,7 +90,7 @@
   line-height: 1.17;
   letter-spacing: -0.96px;
   text-transform: uppercase;
-  padding-bottom: 14px;
+  margin-bottom: 14px;
 }
 
 .vegetables-main-paragraf {
@@ -102,7 +102,7 @@
   font-weight: 400;
   line-height: 1.28;
   letter-spacing: -0.56px;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .vegetables-cards-list {
@@ -110,7 +110,7 @@
   flex-direction: column;
   gap: 20px;
   margin: 0 auto;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 767px) {
@@ -124,7 +124,7 @@
 }
 
 .vegetables-item {
-  padding: 40px 0 20px;
+  padding: 40px 20px 20px;
   background: var(--order-card-back);
   border-radius: 20px;
 }
@@ -136,8 +136,7 @@
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: -0.96px;
-  padding-bottom: 8px;
-  padding-left: 20px;
+  margin-bottom: 8px;
 }
 
 .vegetables-plant-paragraf {
@@ -147,8 +146,7 @@
   font-weight: 400;
   line-height: 1.28;
   letter-spacing: -0.28px;
-  padding-bottom: 40px;
-  padding-left: 20px;
+  margin-bottom: 40px;
 }
 
 .vegetables-img-contaner {
@@ -157,7 +155,7 @@
   display: block;
   margin: 0 auto;
   /* overflow: hidden; */
-  padding-bottom: 22px;
+  margin-bottom: 22px;
 }
 
 .vegetables-card-img {
@@ -175,7 +173,6 @@
   font-weight: 500;
   line-height: 1.28;
   letter-spacing: -0.56px;
-  padding-left: 20px;
 }
 
 .vegetables-btn {
@@ -243,7 +240,7 @@
     max-width: 562px;
     display: block;
     margin: 0 auto;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
   }
 
   .vegetables-cards-list {
@@ -252,11 +249,11 @@
     gap: 20px;
     margin: 0 auto;
     flex-wrap: wrap;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
   }
 
   .vegetables-item {
-    padding: 64px 0 24px;
+    padding: 64px 24px 24px;
     border-radius: 20px;
     width: calc((100% - 20px) / 2);
   }
@@ -265,16 +262,14 @@
     font-size: 28px;
     line-height: 1.14;
     letter-spacing: -1.12px;
-    padding-bottom: 8px;
-    padding-left: 24px;
+    margin-bottom: 8px;
   }
 
   .vegetables-plant-paragraf {
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: -0.36px;
-    padding-bottom: 0;
-    padding-left: 24px;
+    margin-bottom: 0;
   }
 
   .vegetables-img-contaner {
@@ -286,7 +281,6 @@
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: -0.72px;
-    padding-left: 24px;
   }
 }
 
@@ -321,7 +315,7 @@
   }
 
   .vegetables-item {
-    padding: 64px 0 24px;
+    padding: 64px 24px 24px;
     border-radius: 20px;
     width: calc((100% - 48px) / 3);
   }
@@ -330,7 +324,7 @@
     font-size: 32px;
     line-height: 1.19;
     letter-spacing: -1.28px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
   }
 
   .vegetables-plant-paragraf {
@@ -338,7 +332,6 @@
     line-height: 1.33;
     letter-spacing: -0.36px;
     padding-bottom: 0;
-    padding-left: 24px;
   }
 }
 
